@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 96vw;
+    height: 96vh;
+}
+
+header{
+    text-align: center;
+}
+
+header > h1{
+    background-color: lightslategray;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    width: 520px;
+    margin: 0 auto;
+}
+
+
+span#icon{
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#icon:hover{
+    color: black;
+    background-color: gray;
+}
+
+#icon:active{
+    background-color: lightgray;
+}
+
+menu{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-top: 1px solid white;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 1px;
+    cursor: pointer;
+    
+}
+
+menu > ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+menu > ul > li{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid white;
+    padding: 2px 10px;
+}
+
+li:active{
+    font-size: 1.1em;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+section{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #636363;
+    width: 490px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px #000000ad;
+    
+}
+
+section > article > p{
+    font-size: 1.2em;
+
+    text-align: justify;
+    text-indent: 20px;
+    color: white;
+
+    
+}
+
+article.Artigos.clicou{
+    display: block;
+}
+article.Artigos{
+    display: none;
+}
+
+footer{
+    float: left;
+    text-align: left;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+footer > span#icon_lightmode {
+    color: white;
+    margin-left: 10px;
+}
+
+footer > #icon_darkmode{
+    margin-left: 10px;
+}
+
+header > h1.Escuro{
+    background-color: gray
+}
+
+#icon.Escuro{
+    background-color: white;
+    color: black;
+
+}
+#icon.Escuro:hover{
+    color: white;
+    background-color: gray;
+}
+
+menu.Escuro {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-top: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.Escuro > ul >li:active{
+    font-size: 1.1em;
+    background-color: lightgray;
+    color: black;
+    padding: 5px;
+}
+

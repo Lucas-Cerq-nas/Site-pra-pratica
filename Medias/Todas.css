@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*Tablet*/
+@media screen and (min-width: 750px) {
+    header > h1{
+        width: 100vw;
+    }
+        span#icon{
+            width: 98.6vw;
+        }
+    menu , menu.Escuro{
+        width: 98.6vw;
+    }
+
+    section{
+        width: 600px;
+    }
+    section > article > p{
+        font-size: 1em;
+    }
+
+}
+
+
+
